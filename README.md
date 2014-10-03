@@ -10,7 +10,6 @@ Run the NancyFx server through Visual Studio then open `cmd` and `cd` into the p
 Finally run either `gulp` or `gulp --build production` and open a browser at `http://localhost:5000` to view the page. Start making changes to client files and watch it automatically refresh and update.
 
 I do my client side development in Webstorm and use its built-in terminal to run gulp etc..
-
 Issues
 ======
 
