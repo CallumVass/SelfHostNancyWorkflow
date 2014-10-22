@@ -2,8 +2,9 @@
 
 require("angular");
 require("angular-route");
+require("./common/common");
 
-angular.module("app", ["ngRoute"])
+angular.module("app", ["ngRoute", "common"])
     .config(function ($routeProvider) {
         $routeProvider.when("/", {
             templateUrl: "./content/templates/home.html",
